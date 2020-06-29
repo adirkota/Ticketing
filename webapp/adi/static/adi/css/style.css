@@ -1,35 +1,34 @@
 body{
 	margin: 0;
 	padding: 0;
-	background: url('../images/ticket.jpg');
+	background: url('../images/travel.jpg');
 	background-size: cover;
 	background-position: center;
-	font-family: sans-serif;
+	font-family: Helvetica;
+	font-style: italic;
 }
 
 .loginbox{
-    width: 320px;
-	height: 420px;
-	background: #000;
-	color: #fff;
+    width: 280px;
+	position: absolute;
 	top: 50%;
 	left: 50%;
-	position: absolute;
 	transform: translate(-50%, -50%);
-	box-sizing: border-box;
-	padding: 70px 30px;
+	color: #000000;
 	}
-h1{
-	margin: 0;
-	padding: 0 0 20px;
-	text-align: center;
-	font-size: 22px;
+
+.loginbox h1{
+	float: left;
+	font-size: 40px;
+	margin-bottom: 50px;
+	padding: 13px 0;
 }
 
 .loginbox p{
 	margin: 0;
 	padding: 0;
 	font-weight: bold;
+	color: #000000;
 }
 .loginbox input{
 	width: 100%;
@@ -38,11 +37,11 @@ h1{
 
 .loginbox input[type="text"], input[type="password"]{
 	border: none;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #000000;
 	background: transparent;
 	outline: none;
 	height: 40px;
-	color: #fff;
+	color: #000000;
 	font-size: 16px;
 }
 
@@ -63,17 +62,12 @@ h1{
 	color: #000;
 }
 
-.loginbox input[type="checkbox"]
-{
-  box-sizing: border-box;
-  padding: 0;
-}
-
 .loginbox a{
 	text-decoration: none;
-	font-size: 12px;
+	font-size: 15px;
 	line-height: 20px;
-	color: #A9A9A9;
+	color: #000000;
+	font-weight: bold;
 }
 
 .loginbox a:hover
